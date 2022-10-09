@@ -5,119 +5,118 @@
     <meta name="author" content="Chi (Jack) Chou">
     <link rel="icon" type="image/x-icon" href="./assets/html.png">
   </head>
-  <nav>
-    <span><a href="#header">Home</a></span> |
-    <span><a href="#features">Contents</a></span> | 
-    <span><a href="#sketches">Sketches</a></span>
-  </nav>
-  <header name="header">
-    <img width="500px" alt="post sketch" src="./assets/header.PNG">
-  </header>
-  <main>
-    <h1>Day 1: Website Brainstorm</h1>
-    <section>
-      <h2>Agenda</h2>
-      <ol>
-        <li>Contents</li>
-        <li>Sketches</li>
-      </ol>
-    </section>
-    <hr>
-    <section name="Contents">
-      <h2>Contents</h2>
-      <h3>Main features:</h3>
-      <details>
-        <summary>Create post</summary>
-        <p>Create message and post them on <b>social media</b>.</p>
-      </details>
-      <details>
-        <summary>Save post</summary>
-        <p>Save message and information <i>locally</i>.</p>
-      </details>
-      <details>
-        <summary>Delete post</summary>
-        <p>Delete message locally and on <strong>social media</strong>.</p>
-      </details>
-      <h3>Side features:</h3>
-      <ul>
-        <li>Landing page</li>
-        <li>Tracking reactions</li>
-        <li>Saving comments</li>
-      </ul>
-    </section>
-    <hr>
-    <section name="sketches">
-      <h2>Sketches</h2>
-      <img width="500px" alt="post sketch" src="./assets/sketch.PNG"><br/>
-      <video width="500px" controls>
-        <source src="./assets/IMG_8705.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-      </video><br/>
-      <audio controls>
-        <source src="./assets/fade.mp3" type="audio/mp3">
-      Your browser does not support the audio element.
-      </audio>
-    </section>
-    <hr>
-    <form>
-      <fieldset>
-        <legend>Feedback:</legend>
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name"><br>
-        <p>Which feature are you working on?</p>
-        
-        <input type="checkbox" id="create" name="create" value="create">
-        <label for="create">Create post</label><br>
-        
-        <input type="checkbox" id="save" name="save" value="save">
-        <label for="save">Save post</label><br>
-        
-        <input type="checkbox" id="delete" name="delete" value="delete">
-        <label for="delete">Delete post</label><br>
-
-        <p>Which side feature is the most useful?</p>
-        
-        <input type="radio" id="landing" name="landing" value="create">
-        <label for="landing">Landing page</label><br>
-        
-        <input type="radio" id="tracking" name="tracking" value="create">
-        <label for="tracking">Tracking reactions</label><br>
-        
-        <input type="radio" id="saving" name="saving" value="create">
-        <label for="saving">Saving comments</label><br><br/>
-
-        <label for="startDate">When will you be available to start working?</label>
-        <input type="date" id="startDate" name="startDate"><br/><br/>
-
-        <label for="time-choice">How many hours can you contribute?</label>
-        <input list="time-list" id="time-choice" name="time-choice">
-
-        <datalist id="time-list">
-          <option value="1-2 hours">
-          <option value="2-4 hours">
-          <option value="4-6 hours">
-          <option value="8-10 hours">
-          <option value="10+ hours">
-        </datalist><br/><br/>
-
-        <label for="remote-choice">Do you prefer to work remote or in-person:</label>
-        <select name="remote-list" id="remote-choice">
-          <option value="remote">Remote</option>
-          <option value="person">In-person</option>
-        </select><br/><br/>
-
-
-        <p>Do you have any additional feedback?</p>
-        <textarea id="feedback" name="feedback" rows="4" cols="50"></textarea><br/>
-        <button type="button">Submit</button>
-       </fieldset>
-    </form>
-    <br/>
-  </main>
-  <footer>
-    <em>Powered with HTML</em>
-  </footer>
   <body>
+    <nav>
+      <span><a href="#header">Home</a></span> |
+      <span><a href="#features">Contents</a></span> | 
+      <span><a href="#sketches">Sketches</a></span>
+    </nav>
+    <header id="header">
+      <img width="500px" alt="post sketch" src="./assets/header.PNG">
+    </header>
+    <main>
+      <h1>Day 1: Website Brainstorm</h1>
+      <section>
+        <h2>Agenda</h2>
+        <ol>
+          <li>Contents</li>
+          <li>Sketches</li>
+        </ol>
+      </section>
+      <hr>
+      <section id="Contents">
+        <h2>Contents</h2>
+        <h3>Main features:</h3>
+        <details>
+          <summary>Create post</summary>
+          <p>Create message and post them on <b>social media</b>.</p>
+        </details>
+        <details>
+          <summary>Save post</summary>
+          <p>Save message and information <i>locally</i>.</p>
+        </details>
+        <details>
+          <summary>Delete post</summary>
+          <p>Delete message locally and on <strong>social media</strong>.</p>
+        </details>
+        <h3>Side features:</h3>
+        <ul>
+          <li>Landing page</li>
+          <li>Tracking reactions</li>
+          <li>Saving comments</li>
+        </ul>
+      </section>
+      <hr>
+      <section id="sketches">
+        <h2>Sketches</h2>
+        <img width="500" alt="post sketch" src="./assets/sketch.PNG"><br>
+        <video width="500" controls>
+          <source src="./assets/IMG_8705.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+        </video><br>
+        <audio controls>
+          <source src="./assets/fade.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+        </audio>
+      </section>
+      <hr>
+      <form>
+        <fieldset>
+          <legend>Feedback:</legend>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name"><br>
+          <p>Which feature are you working on?</p>
+          
+          <input type="checkbox" id="create" name="create" value="create">
+          <label for="create">Create post</label><br>
+          
+          <input type="checkbox" id="save" name="save" value="save">
+          <label for="save">Save post</label><br>
+          
+          <input type="checkbox" id="delete" name="delete" value="delete">
+          <label for="delete">Delete post</label><br>
 
+          <p>Which side feature is the most useful?</p>
+          
+          <input type="radio" id="landing" name="landing" value="create">
+          <label for="landing">Landing page</label><br>
+          
+          <input type="radio" id="tracking" name="tracking" value="create">
+          <label for="tracking">Tracking reactions</label><br>
+          
+          <input type="radio" id="saving" name="saving" value="create">
+          <label for="saving">Saving comments</label><br><br>
+
+          <label for="startDate">When will you be available to start working?</label>
+          <input type="date" id="startDate" name="startDate"><br><br>
+
+          <label for="time-choice">How many hours can you contribute?</label>
+          <input list="time-list" id="time-choice" name="time-choice">
+
+          <datalist id="time-list">
+            <option value="1-2 hours">
+            <option value="2-4 hours">
+            <option value="4-6 hours">
+            <option value="8-10 hours">
+            <option value="10+ hours">
+          </datalist><br><br>
+
+          <label for="remote-choice">Do you prefer to work remote or in-person:</label>
+          <select name="remote-list" id="remote-choice">
+            <option value="remote">Remote</option>
+            <option value="person">In-person</option>
+          </select><br><br>
+
+
+          <p>Do you have any additional feedback?</p>
+          <textarea id="feedback" name="feedback" rows="4" cols="50"></textarea><br>
+          <button type="button">Submit</button>
+        </fieldset>
+      </form>
+      <br>
+    </main>
+    <footer>
+      <em>Powered with HTML</em>
+    </footer>
   </body>
 </html>
