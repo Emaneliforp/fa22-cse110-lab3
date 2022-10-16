@@ -3,21 +3,25 @@
   <head>
     <title>Website Brainstorm</title>
     <meta name="author" content="Chi (Jack) Chou">
+
     <link rel="icon" type="image/x-icon" href="./assets/html.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Press+Start+2P">
+    <link rel="stylesheet" href="index.css">
   </head>
   <body>
-    <nav>
-      <span><a href="#header">Home</a></span> |
-      <span><a href="#contents">Contents</a></span> | 
-      <span><a href="#sketches">Sketches</a></span>
-    </nav>
+    <img id="logo" src="./assets/html.png">
     <header id="header">
-      <img width="500" alt="post sketch" src="./assets/header.PNG">
+      <img style="width:100%; max-height: 200px; min-width: 400px" alt="post sketch" src="./assets/header.PNG">
     </header>
+    <nav>
+      <div id="nav-header" class="bold"><a href="#header">Home</a></div> |
+      <div id="nav-contents"><a href="#contents">Contents</a></div> | 
+      <div id="nav-sketches"><a href="#sketches">Sketches</a></div>
+    </nav>
     <main>
-      <h1>Day 1: Website Brainstorm</h1>
+      <h1 id="title">Day 1: Website Brainstorm</h1>
       <section>
-        <h2>Agenda</h2>
+        <h2 id="agenda-title">Agenda</h2>
         <ol>
           <li>Contents</li>
           <li>Sketches</li>
@@ -25,7 +29,7 @@
       </section>
       <hr>
       <section id="contents">
-        <h2>Contents</h2>
+        <h2 id="contents-title">Contents</h2>
         <h3>Main features:</h3>
         <details>
           <summary>Create post</summary>
@@ -39,16 +43,22 @@
           <summary>Delete post</summary>
           <p>Delete message locally and on <strong>social media</strong>.</p>
         </details>
-        <h3>Side features:</h3>
-        <ul>
-          <li>Landing page</li>
-          <li>Tracking reactions</li>
-          <li>Saving comments</li>
-        </ul>
+        <h3 >Side features:</h3>
+        <div id="side-features">
+          <div class="feature bold">Landing page</div>
+          <div class="feature">Tracking reactions</div>
+          <div class="feature">Saving comments</div>
+          <div class="feature">Saving comments</div>
+          <div class="feature bold">Tracking reactions</div>
+          <div class="feature">Landing page</div>
+          <div class="feature">Landing page</div>
+          <div class="feature">Tracking reactions</div>
+          <div class="feature bold">Saving comments</div>
+        </div>
       </section>
       <hr>
+      <h2 id="sketches-title">Sketches</h2>
       <section id="sketches">
-        <h2>Sketches</h2>
         <img width="500" alt="post sketch" src="./assets/sketch.PNG"><br>
         <video width="500" controls>
           <source src="./assets/IMG_8705.mp4" type="video/mp4">
