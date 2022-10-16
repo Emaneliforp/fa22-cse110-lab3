@@ -1,5 +1,10 @@
 # Daily Stand Up
 
+## Team Info
+| Team name | ---------- | -------- | -------- |
+| Supervisor | ---------- | -------- | -------- |
+| Team members | ---------- | -------- | -------- |
+
 ## Date
 | Name | Priorities | Progress | Problems |
 | ---- | ---------- | -------- | -------- |
