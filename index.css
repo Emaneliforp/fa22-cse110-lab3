@@ -37,7 +37,7 @@ a[href="#header"] {
 }
 
 nav div:hover {
-    background-color: yellow;
+    background-color: #FFFF00;
 }
 
 div.bold {
@@ -53,7 +53,7 @@ div.bold {
     display: inline-block;
     margin: 0 0 0 0;
     padding: 10px;
-    background-color: yellow;
+    background-color: rgb(255,255,0);
     border-style: solid;
     border-color: black;
     border-width: 3px;
@@ -71,7 +71,7 @@ div.bold {
 .feature {
     background-color: aquamarine;
     padding: 20px;
-    border: 3px solid black;
+    border: 3px solid hsl(92, 25%, 0%);
     border-radius: 20px;
 }
 
